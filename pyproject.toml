@@ -1,0 +1,13 @@
+[project]
+name = "arxiv-papers"
+version = "0.1.0"
+description = "Quickly search and summarize arxiv paper abstracts using local LLM"
+readme = "README.md"
+authors = [
+    { name = "Krzysztof Gonet", email = "36476874+Savaed@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32.3",
+    "rich>=13.9.3",
+]

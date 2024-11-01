@@ -1,0 +1,18 @@
+{
+  "include_terms": ["mechanistic", "interpretability"],
+  "union": true,
+  "exclude_terms": [
+    "game",
+    "chemical",
+    "blockchain",
+    "robot",
+    "robotics",
+    "medical",
+    "cancer",
+    "biologic"
+  ],
+  "category": "cs.AI",
+  "max_results": 1000,
+  "model": "llama3.1:8b",
+  "days_before": 1766
+}
