@@ -109,7 +109,7 @@ def main() -> int:
 
     dir_filepath = Path.home() / "papers"
 
-    if not dir_filepath.is_file():
+    if not dir_filepath.is_dir():
         os.makedirs(dir_filepath)
 
     filepath = (
